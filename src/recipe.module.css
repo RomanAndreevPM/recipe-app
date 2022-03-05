@@ -1,0 +1,78 @@
+.recipe {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    background: white;
+}
+
+.recipe .header {
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recipe .header .logo {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.recipe .header p {
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    padding: 0px 4px;
+    border: black solid;
+    border-radius: 4px;
+    color: white;
+    font-size: small;
+}
+
+.recipe .body {
+    display: flex;
+    width: 100%;
+    margin: 8px 0 8px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe .body img {
+    width: 50%;
+    height: 50%;
+    border-radius: 4px;
+}
+
+.recipe .body .description {
+    display: inline-block;
+}
+
+.recipe .body .description h1 {
+    font-size: medium;
+    margin: 0 8px 0 8px;
+}
+
+.recipe .body .description p {
+    font-size: small;
+    margin: 8px 8px 0 8px;
+}
+
+.recipe .button {
+    display: flex;
+    width: 100%;
+    margin: 16px 0 8px 0;
+}
+
+.recipe .button button{
+    background:#eef1f5;
+    border: black solid;
+    padding: 2px 4px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
